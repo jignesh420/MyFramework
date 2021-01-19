@@ -1,9 +1,10 @@
+
 Pod::Spec.new do |spec|
 
-  spec.name         = "MyFramwork"
+  spec.name         = "MyFramworkJC"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of MyFramwork."
-  spec.description  = "Test My Framework"
+  spec.summary      = "This is a best framework"
+  spec.description  = "I have no idea what to write as a description"
   spec.homepage     = "https://github.com/jignesh420/MyFramework"
   spec.license      = "MIT"
   spec.author       = { "jignesh420" => "jcsoftweb@gmail.com" }
