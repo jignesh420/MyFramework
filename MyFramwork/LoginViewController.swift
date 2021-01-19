@@ -37,7 +37,10 @@ public class LoginViewController: UIViewController {
     */
 
    @IBAction func tapMeButtonPress(_ sender: Any) {
+    testAlamofireLibrary()
     let alert:UIAlertController = UIAlertController.init(title: "Test My Framwork", message: "Default", preferredStyle: .alert)
+    let cancelActionButton = UIAlertAction(title: "Cancel", style: .cancel)
+    alert.addAction(cancelActionButton)
     present(alert, animated: true, completion: nil)
   }
 }
